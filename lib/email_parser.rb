@@ -11,7 +11,7 @@ class EmailAddressParser
 
   def parse
     @emails.each do |email|
-      @emails[email] = email.to_a
+      @emails[email] = email.to_s
     end
   end
 

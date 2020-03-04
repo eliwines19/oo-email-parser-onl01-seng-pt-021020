@@ -10,7 +10,9 @@ class EmailAddressParser
   end
 
   def parse
-    @emails
+    @emails.each do |email|
+      @emails[email]
+    end
   end
 
 end
